@@ -71,3 +71,4 @@ Lembre-se: este é o primeiro passo. Concentre-se em entender os fundamentos de 
 processamento e saída de dados em C. 
 Nos próximos níveis, você adicionará mais funcionalidades e complexidade ao seu jogo.
 */
+
