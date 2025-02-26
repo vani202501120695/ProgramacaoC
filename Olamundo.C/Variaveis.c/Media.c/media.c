@@ -21,7 +21,7 @@ int main (){
     //Declaração das variáveis
     char nome[20];
     int idade, matricula;
-    float altura;
+    float altura, N1;
 
         printf("Digite seu nome: \n");
         scanf("%s", &nome);
@@ -31,11 +31,14 @@ int main (){
         scanf("%f", &altura);
         printf("Digite sua Matricula: \n");
         scanf("%d", &matricula);
+        printf("Digite a N1: ");
+        scanf("%f", N1);
 
         printf("Nome: %s\n", nome);
         printf("Idade: %danos\n", idade);
         printf("Altura: %.2f\n", altura);
         printf("Matricula: %d\n", matricula);
+        printf("Nota da N1: %.2f", N1);
 
         return 0;
 }
